@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.next/
+.turbo/
+*.tsbuildinfo
+
+# Clone local usado pelo git-ops em runtime — não é código-fonte
+apps/api/.git-repo-cache/
+
+# Segredos e configuração local
+.env
+.env.local
+infra/.env
+
+.DS_Store
